@@ -631,7 +631,6 @@ PRODUCT_PACKAGES += \
     qcrild_librilutils \
     qtibus \
     qtimutex \
-    sensors.ssc \
     unnhal-acc-adreno \
     unnhal-acc-common \
     unnhal-acc-hta \
