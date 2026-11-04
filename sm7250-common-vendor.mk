@@ -153,7 +153,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm7250-common/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
     vendor/oneplus/sm7250-common/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/oneplus/sm7250-common/proprietary/vendor/etc/init/init_thermal-engine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine.rc \
-    vendor/oneplus/sm7250-common/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/oneplus/sm7250-common/proprietary/vendor/etc/init/mutualex.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mutualex.rc \
     vendor/oneplus/sm7250-common/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/oneplus/sm7250-common/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
@@ -296,39 +295,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm7250-common/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/oneplus/sm7250-common/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/oneplus/sm7250-common/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b00 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a615_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b01 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a615_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b02 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a615_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.elf \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a615_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.mdt \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a619_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a619_gmu.bin \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a620_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.b00 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a620_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.b01 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a620_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.b02 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a620_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.elf \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a620_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.mdt \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a650_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_gmu.bin \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a650_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_sqe.fw \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a650_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b00 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a650_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b01 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a650_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b02 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a650_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.elf \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/a650_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.mdt \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b03 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/lagoon_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.b00 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/lagoon_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.b01 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/lagoon_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.b02 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/lagoon_ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.b03 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/lagoon_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.b04 \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/lagoon_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.elf \
-    vendor/oneplus/sm7250-common/proprietary/vendor/firmware/lagoon_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/lagoon_ipa_fws.mdt \
     vendor/oneplus/sm7250-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/oneplus/sm7250-common/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
     vendor/oneplus/sm7250-common/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
