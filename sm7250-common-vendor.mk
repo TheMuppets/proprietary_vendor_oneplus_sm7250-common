@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm7250-common/proprietary/odm/firmware/fastchg/20813/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20813/charging_thermal_config_default.txt \
     vendor/oneplus/sm7250-common/proprietary/odm/firmware/fastchg/20814/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20814/charging_thermal_config_default.txt \
     vendor/oneplus/sm7250-common/proprietary/odm/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charging_thermal_config_default.txt \
-    vendor/oneplus/sm7250-common/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
     vendor/oneplus/sm7250-common/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/oneplus/sm7250-common/proprietary/odm/vendor/firmware/widevine.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/widevine.b00 \
     vendor/oneplus/sm7250-common/proprietary/odm/vendor/firmware/widevine.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/widevine.b01 \
